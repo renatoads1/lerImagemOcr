@@ -1,0 +1,70 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\renatolacerda\\source\\repos\\Masoctinha\\Masoctinha\\Masoctinha.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\renatolacerda\\source\\repos\\Masoctinha\\Masoctinha\\Masoctinha.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\renatolacerda\\source\\repos\\Masoctinha\\Masoctinha\\Masoctinha.csproj",
+        "projectName": "Masoctinha",
+        "projectPath": "C:\\Users\\renatolacerda\\source\\repos\\Masoctinha\\Masoctinha\\Masoctinha.csproj",
+        "packagesPath": "C:\\Users\\renatolacerda\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\renatolacerda\\source\\repos\\Masoctinha\\Masoctinha\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\renatolacerda\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "uap10.0.10240"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "uap10.0.10240": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "uap10.0.10240": {
+          "dependencies": {
+            "Microsoft.NETCore.UniversalWindowsPlatform": {
+              "target": "Package",
+              "version": "[6.2.10, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win10-arm": {
+          "#import": []
+        },
+        "win10-arm-aot": {
+          "#import": []
+        },
+        "win10-arm64-aot": {
+          "#import": []
+        },
+        "win10-x64": {
+          "#import": []
+        },
+        "win10-x64-aot": {
+          "#import": []
+        },
+        "win10-x86": {
+          "#import": []
+        },
+        "win10-x86-aot": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+﻿<Page
+    x:Class="Masoctinha.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Masoctinha"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Image HorizontalAlignment="Center" Height="588" Margin="0,50,0,0" VerticalAlignment="Top" Width="1018" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Source="/Assets/IMG_20210125_110317_977.jpg">
+            <Image.RenderTransform>
+                <CompositeTransform Rotation="-0.061"/>
+            </Image.RenderTransform>
+        </Image>
+        <Button x:ConnectionId='1' Content="Extract" Margin="33,743,0,0" VerticalAlignment="Top" Height="122" Width="346" AutomationProperties.Name="btnExtract"                     />
+        <TextBlock x:ConnectionId='2' x:Name="tbTxt" HorizontalAlignment="Left" Margin="428,734,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Height="308" Width="1441" AutomationProperties.Name="tbText"/>
+
+    </Grid>
+</Page>
+
